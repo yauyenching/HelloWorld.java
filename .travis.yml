@@ -2,6 +2,6 @@ language: generic
 addons:
   apt:
     packages:
-      - oracle-java8-installer
+      - openjdk-8-jdk-headless
 script:
   - make run
